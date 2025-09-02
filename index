@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>App Testers Italia – Candidature Tester Android/iOS</title>
-  <meta name="description" content="Community italiana dedicata al testing di app. Candidati come beta tester per Android e iOS e partecipa ai nostri progetti.">
+  <title>App Testers Italia – Candidature Tester ANDROID</title>
+  <meta name="description" content="Community italiana dedicata al testing di app Android. Candidati come beta tester Android e partecipa ai nostri progetti (Google Play Beta, APK).">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <!-- favicon in root del repo -->
   <link rel="icon" href="favicon.ico">
   <style>
     :root{ --bg:#0b1220;--card:#0f172a;--muted:#94a3b8;--text:#e2e8f0;--brand:#5eead4;--brand-2:#60a5fa;--focus:0 0 0 3px rgba(96,165,250,.45) }
@@ -48,24 +47,24 @@
     <div class="hero">
       <div>
         <span class="badge">🐞 App Testers Italia • Community</span>
-        <h1>Diventa tester di app <span style="background:linear-gradient(135deg,#5eead4,#60a5fa);-webkit-background-clip:text;background-clip:text;color:transparent">Android / iOS</span></h1>
-        <p class="lead">Unisciti alla community italiana dedicata al <strong>mobile app testing</strong>. Candidati per provare in anteprima nuove app, segnalare bug e contribuire alla qualità dei prodotti.</p>
+        <h1>Diventa tester di app <span style="background:linear-gradient(135deg,#5eead4,#60a5fa);-webkit-background-clip:text;background-clip:text;color:transparent">ANDROID</span></h1>
+        <p class="lead">Unisciti alla community italiana dedicata al <strong>testing di app Android</strong>. Candidati per provare in anteprima nuove app, segnalare bug e contribuire alla qualità dei prodotti.</p>
         <div class="cta">
           <a class="btn btn-primary" href="#apply">Candidati ora</a>
-          <a class="btn btn-secondary" href="https://www.facebook.com/groups/XXXXXXXX" target="_blank" rel="noopener">Vai al gruppo Facebook</a>
+          <a class="btn btn-secondary" href="https://www.facebook.com/groups/2925527610953700" target="_blank" rel="noopener">Vai al gruppo Facebook</a>
         </div>
         <p class="notice" style="margin-top:10px">Sito statico, nessun tracking. Codice open-source su GitHub Pages.</p>
       </div>
       <div class="card">
         <h3 style="margin:0 0 6px">Cosa offriamo</h3>
         <ul class="list">
-          <li>✅ Accesso a <strong>beta private</strong> (TestFlight / Google Play)</li>
-          <li>✅ Template e strumenti per <strong>bug report</strong> efficaci</li>
-          <li>✅ FAQ e guide per risolvere problemi comuni</li>
-          <li>✅ Networking con sviluppatori e altri tester</li>
+          <li>✅ Accesso a <strong>Google Play Beta</strong> e APK</li>
+          <li>✅ Template e strumenti per <strong>bug report</strong> efficaci (logcat, device info)</li>
+          <li>✅ FAQ e guide per risolvere problemi Android comuni</li>
+          <li>✅ Networking con sviluppatori e altri tester Android</li>
         </ul>
         <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-          <span class="chip">Android</span><span class="chip">iOS</span><span class="chip">QA</span><span class="chip">Automation</span><span class="chip">Accessibility</span>
+          <span class="chip">Android</span><span class="chip">ADB/Logcat</span><span class="chip">QA</span><span class="chip">Automation</span><span class="chip">Accessibility</span>
         </div>
       </div>
     </div>
@@ -76,13 +75,13 @@
       <h2>Come funziona</h2>
       <div class="grid grid-3">
         <div class="card"><strong>1) Candidatura</strong><br><span class="muted">Compila il modulo con i tuoi dispositivi e interessi.</span></div>
-        <div class="card"><strong>2) Selezione</strong><br><span class="muted">Ti contattiamo quando c’è un match con i progetti.</span></div>
-        <div class="card"><strong>3) Testing</strong><br><span class="muted">Prova la build, invia feedback e bug con i nostri template.</span></div>
+        <div class="card"><strong>2) Selezione</strong><br><span class="muted">Ti contattiamo quando c’è un match con i progetti Android.</span></div>
+        <div class="card"><strong>3) Testing</strong><br><span class="muted">Prova la build (Google Play Beta / APK), invia feedback e bug con i nostri template.</span></div>
       </div>
     </section>
 
     <section class="section" id="apply">
-      <h2>Candidatura Tester</h2>
+      <h2>Candidatura Tester Android</h2>
       <p class="muted" style="margin-top:-6px">Compila il modulo. Verrai inserito nelle nostre <em>testing list</em>.</p>
 
       <div id="status-ok" class="success">✅ Candidatura inviata! Ti reindirizziamo alla pagina di conferma…</div>
@@ -106,7 +105,7 @@
         </div>
 
         <div class="field-row">
-          <div><label for="devices">Dispositivi posseduti</label><input id="devices" name="devices" placeholder="Pixel 7 (Android 14), iPhone 13 (iOS 17)"></div>
+          <div><label for="devices">Dispositivi Android posseduti</label><input id="devices" name="devices" placeholder="Pixel 7 (Android 14), Galaxy S21 (Android 13)"></div>
           <div><label for="experience">Esperienza testing</label>
             <select id="experience" name="experience">
               <option>Principiante</option><option>Intermedio</option><option>Avanzato</option><option>Professionista QA</option>
@@ -118,8 +117,13 @@
           <div>
             <label for="focus">Aree di interesse</label>
             <select id="focus" name="focus" multiple style="min-height:120px">
-              <option>Android</option><option>iOS</option><option>Automazione (Appium)</option>
-              <option>Usabilità/UX</option><option>Accessibilità</option><option>Performance</option><option>Sicurezza</option>
+              <option>Android</option>
+              <option>Automazione (Appium/ADB)</option>
+              <option>Usabilità/UX</option>
+              <option>Accessibilità</option>
+              <option>Performance</option>
+              <option>Sicurezza</option>
+              <option>Compatibilità dispositivi</option>
             </select>
             <div class="notice">Tieni premuto Ctrl/Cmd per selezioni multiple.</div>
           </div>
@@ -136,7 +140,7 @@
 
         <div class="inline">
           <input id="consent" name="consent" type="checkbox" required>
-          <label for="consent" class="muted">Acconsento al trattamento dei dati ai soli fini di contatto per test di app. <a href="privacy.html">Privacy</a></label>
+          <label for="consent" class="muted">Acconsento al trattamento dei dati ai soli fini di contatto per test di app Android. <a href="privacy.html">Privacy</a></label>
         </div>
 
         <input type="hidden" name="source" value="github-pages">
@@ -155,8 +159,8 @@
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
 
-    // === Formspree ===
-    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xrbaaree"; // tuo endpoint
+    // === Formspree (endpoint tuo) ===
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xrbaaree";
     const form = document.getElementById('applyForm');
     const ok = document.getElementById('status-ok');
     const ko = document.getElementById('status-ko');
