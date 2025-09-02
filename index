@@ -4,18 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>App Testers Italia – Candidature Tester Android/iOS</title>
-  <meta name="description" content="Community italiana dedicata al testing di app. Candidati come beta tester per Android e iOS e partecipa ai nostri progetti." />
+  <meta name="description" content="Community italiana dedicata al testing di app. Candidati come beta tester per Android e iOS e partecipa ai nostri progetti.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="/favicon.ico">
+  <!-- favicon in root del repo -->
+  <link rel="icon" href="favicon.ico">
   <style>
-    :root{ --bg:#0b1220;--card:#0f172a;--muted:#94a3b8;--text:#e2e8f0;--brand:#5eead4;--brand-2:#60a5fa;--ok:#22c55e;--err:#ef4444; --focus:0 0 0 3px rgba(96,165,250,.45) }
+    :root{ --bg:#0b1220;--card:#0f172a;--muted:#94a3b8;--text:#e2e8f0;--brand:#5eead4;--brand-2:#60a5fa;--focus:0 0 0 3px rgba(96,165,250,.45) }
     *{box-sizing:border-box} html,body{height:100%}
     body{margin:0;background:radial-gradient(1200px 600px at 10% -10%, rgba(96,165,250,.18), transparent 60%),
                     radial-gradient(900px 500px at 110% 10%, rgba(94,234,212,.14), transparent 60%), var(--bg);
          color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
-    a{color:var(--brand-2);text-decoration:none} a:hover{text-decoration:underline}
+    a{color:#60a5fa;text-decoration:none} a:hover{text-decoration:underline}
     header{padding:48px 20px 0}
     .container{max-width:1050px;margin:0 auto;padding:0 20px}
     .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:32px 0 56px}
@@ -30,7 +31,8 @@
     .grid{display:grid;gap:16px} .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))} .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
     .section{padding:56px 0} .section h2{font-size:28px;margin:0 0 12px}
     .muted{color:var(--muted)} .list{display:grid;gap:8px;margin:12px 0 0;padding:0}
-    .list li{list-style:none;display:flex;gap:10px;align-items:flex-start} .chip{display:inline-block;border:1px solid rgba(148,163,184,.25);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+    .list li{list-style:none;display:flex;gap:10px;align-items:flex-start}
+    .chip{display:inline-block;border:1px solid rgba(148,163,184,.25);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
     form{display:grid;gap:16px;margin-top:10px} label{font-weight:600;font-size:14px}
     input,select,textarea{width:100%;background:#0b1327;border:1px solid rgba(148,163,184,.25);border-radius:12px;padding:12px 14px;color:var(--text)}
     textarea{min-height:120px;resize:vertical} input:focus,select:focus,textarea:focus{outline:none;box-shadow:var(--focus);border-color:rgba(96,165,250,.55)}
@@ -46,13 +48,13 @@
     <div class="hero">
       <div>
         <span class="badge">🐞 App Testers Italia • Community</span>
-        <h1>Diventa tester di app <span style="background:linear-gradient(135deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent">Android / iOS</span></h1>
+        <h1>Diventa tester di app <span style="background:linear-gradient(135deg,#5eead4,#60a5fa);-webkit-background-clip:text;background-clip:text;color:transparent">Android / iOS</span></h1>
         <p class="lead">Unisciti alla community italiana dedicata al <strong>mobile app testing</strong>. Candidati per provare in anteprima nuove app, segnalare bug e contribuire alla qualità dei prodotti.</p>
         <div class="cta">
           <a class="btn btn-primary" href="#apply">Candidati ora</a>
           <a class="btn btn-secondary" href="https://www.facebook.com/groups/XXXXXXXX" target="_blank" rel="noopener">Vai al gruppo Facebook</a>
         </div>
-        <p class="notice" style="margin-top:10px">Nota: questo sito è indipendente e open-source su GitHub. Nessun tracking.</p>
+        <p class="notice" style="margin-top:10px">Sito statico, nessun tracking. Codice open-source su GitHub Pages.</p>
       </div>
       <div class="card">
         <h3 style="margin:0 0 6px">Cosa offriamo</h3>
@@ -74,26 +76,26 @@
       <h2>Come funziona</h2>
       <div class="grid grid-3">
         <div class="card"><strong>1) Candidatura</strong><br><span class="muted">Compila il modulo con i tuoi dispositivi e interessi.</span></div>
-        <div class="card"><strong>2) Selezione</strong><br><span class="muted">Ti contatteremo quando c'è un match con i progetti.</span></div>
-        <div class="card"><strong>3) Testing</strong><br><span class="muted">Prova la build, invia feedback e bug via template ufficiale.</span></div>
+        <div class="card"><strong>2) Selezione</strong><br><span class="muted">Ti contattiamo quando c’è un match con i progetti.</span></div>
+        <div class="card"><strong>3) Testing</strong><br><span class="muted">Prova la build, invia feedback e bug con i nostri template.</span></div>
       </div>
     </section>
 
     <section class="section" id="apply">
       <h2>Candidatura Tester</h2>
-      <p class="muted" style="margin-top:-6px">Compila il modulo. Riceverai una conferma via email quando verrai inserito nelle <em>testing list</em>.</p>
+      <p class="muted" style="margin-top:-6px">Compila il modulo. Verrai inserito nelle nostre <em>testing list</em>.</p>
 
-      <div id="status-ok" class="success">✅ Candidatura inviata! Verifica la posta: ti contatteremo quando c’è un progetto adatto.</div>
+      <div id="status-ok" class="success">✅ Candidatura inviata! Ti reindirizziamo alla pagina di conferma…</div>
       <div id="status-ko" class="error">⚠️ Invio non riuscito. Riprova tra poco o scrivi nel gruppo.</div>
 
       <form id="applyForm" novalidate>
         <div class="field-row">
-          <div><label for="name">Nome e Cognome</label><input id="name" name="name" required placeholder="Mario Rossi" /></div>
-          <div><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="mario@email.it" /></div>
+          <div><label for="name">Nome e Cognome</label><input id="name" name="name" required placeholder="Mario Rossi"></div>
+          <div><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="mario@email.it"></div>
         </div>
 
         <div class="field-row">
-          <div><label for="country">Città / Paese</label><input id="country" name="country" placeholder="Palermo, Italia" /></div>
+          <div><label for="country">Città / Paese</label><input id="country" name="country" placeholder="Palermo, Italia"></div>
           <div><label for="timezone">Fuso orario</label>
             <select id="timezone" name="timezone">
               <option value="Europe/Rome">Europe/Rome (CET/CEST)</option><option value="UTC">UTC</option>
@@ -104,7 +106,7 @@
         </div>
 
         <div class="field-row">
-          <div><label for="devices">Dispositivi posseduti</label><input id="devices" name="devices" placeholder="Pixel 7 (Android 14), iPhone 13 (iOS 17)" /></div>
+          <div><label for="devices">Dispositivi posseduti</label><input id="devices" name="devices" placeholder="Pixel 7 (Android 14), iPhone 13 (iOS 17)"></div>
           <div><label for="experience">Esperienza testing</label>
             <select id="experience" name="experience">
               <option>Principiante</option><option>Intermedio</option><option>Avanzato</option><option>Professionista QA</option>
@@ -121,54 +123,40 @@
             </select>
             <div class="notice">Tieni premuto Ctrl/Cmd per selezioni multiple.</div>
           </div>
-          <div><label for="links">Link utili (GitHub, Portfolio, LinkedIn)</label><input id="links" name="links" placeholder="https://github.com/tuo-utente" /></div>
+          <div><label for="links">Link utili (GitHub, Portfolio, LinkedIn)</label><input id="links" name="links" placeholder="https://github.com/tuo-utente"></div>
         </div>
 
         <div><label for="notes">Note (disponibilità oraria, lingue, app testate…)</label>
           <textarea id="notes" name="notes" placeholder="Raccontaci qualcosa in più"></textarea></div>
 
-        <!-- Honeypot anti-spam (nascosto agli utenti) -->
+        <!-- Honeypot anti-spam -->
         <div style="position:absolute;left:-5000px" aria-hidden="true">
           <label>Non compilare questo campo<input type="text" name="_gotcha"></label>
         </div>
 
         <div class="inline">
-          <input id="consent" name="consent" type="checkbox" required />
+          <input id="consent" name="consent" type="checkbox" required>
           <label for="consent" class="muted">Acconsento al trattamento dei dati ai soli fini di contatto per test di app. <a href="privacy.html">Privacy</a></label>
         </div>
 
-        <input type="hidden" name="source" value="github-pages" />
+        <input type="hidden" name="source" value="github-pages">
         <button class="btn btn-primary" type="submit">Invia candidatura</button>
       </form>
-    </section>
-
-    <section class="section" id="faq">
-      <h2>FAQ</h2>
-      <div class="grid grid-2">
-        <div class="card"><strong>Serve esperienza?</strong><br><span class="muted">No, accettiamo anche neofiti. Indicalo nel modulo e ti assegnamo progetti semplici per iniziare.</span></div>
-        <div class="card"><strong>App a pagamento?</strong><br><span class="muted">No: riceverai link TestFlight o Google Play Beta. Alcuni progetti possono prevedere **reward**.</span></div>
-        <div class="card"><strong>Come invio i bug?</strong><br><span class="muted">Usa il nostro modello di bug report e allega screenshot/video. Indica sempre versione app e dispositivo.</span></div>
-        <div class="card"><strong>Privacy</strong><br><span class="muted">Usiamo i tuoi dati solo per contattarti riguardo ai test. Puoi chiederne la cancellazione in qualsiasi momento.</span></div>
-      </div>
     </section>
   </main>
 
   <footer>
-    <div class="container">
-      <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
-        <span>© <span id="y"></span> App Testers Italia • by Cassata404</span>
-        <span class="muted">Sito statico ospitato su GitHub Pages</span>
-      </div>
+    <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:40px 20px;border-top:1px solid rgba(148,163,184,.18)">
+      <span>© <span id="y"></span> App Testers Italia • by Cassata404</span>
+      <span class="muted">Sito statico ospitato su GitHub Pages</span>
     </div>
   </footer>
 
   <script>
-    // Footer year
     document.getElementById('y').textContent = new Date().getFullYear();
 
-    // === INVIO FORM CON FORMSPREE ===
-    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xrbaaree"; // <-- il tuo endpoint
-
+    // === Formspree ===
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xrbaaree"; // tuo endpoint
     const form = document.getElementById('applyForm');
     const ok = document.getElementById('status-ok');
     const ko = document.getElementById('status-ko');
@@ -179,25 +167,22 @@
       if (!form.reportValidity()) return;
 
       const data = new FormData(form);
-      // multi-select -> stringa
       const focus = Array.from(form.focus.selectedOptions).map(o => o.value);
       data.set('focus', focus.join(', '));
-      // metadati utili
       data.set('submitted_at', new Date().toISOString());
       data.set('referrer', location.href);
       data.set('user_agent', navigator.userAgent);
 
       try {
-        const res = await fetch(FORMSPREE_ENDPOINT, { method:'POST', body:data, headers:{ 'Accept':'application/json' }});
+        const res = await fetch(FORMSPREE_ENDPOINT, { method:'POST', body:data, headers:{ 'Accept':'application/json' } });
         if (res.ok) {
           ok.style.display = 'block';
           form.reset();
-          // Redirect client-side (gratis) alla pagina di ringraziamento
           setTimeout(() => { window.location.href = 'thanks.html'; }, 600);
         } else {
           ko.style.display = 'block';
         }
-      } catch (err) {
+      } catch {
         ko.style.display = 'block';
       }
     });
