@@ -2,7 +2,7 @@
 <html lang="it">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Grazie! – App Testers Italia</title>
+<title>Grazie! – App Testers Italia (Android)</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.ico">
 <style>
@@ -12,9 +12,9 @@
   a{color:#60a5fa}
 </style>
 <div class="wrap">
-  <h1>✅ Candidatura inviata!</h1>
+  <h1>✅ Candidatura Android inviata!</h1>
   <div class="card">
-    <p>Grazie per esserti candidato come tester. Ti contatteremo quando ci sarà un progetto adatto al tuo profilo.</p>
-    <p><a href="./">Torna alla homepage</a> • <a href="https://www.facebook.com/groups/XXXXXXXX" target="_blank" rel="noopener">Vai al gruppo Facebook</a></p>
+    <p>Grazie per esserti candidato come tester Android. Ti contatteremo quando ci sarà un progetto adatto al tuo profilo.</p>
+    <p><a href="./">Torna alla homepage</a> • <a href="https://www.facebook.com/groups/2925527610953700" target="_blank" rel="noopener">Vai al gruppo Facebook</a></p>
   </div>
 </div>
