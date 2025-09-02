@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Grazie! – App Testers Italia</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico">
 <style>
   body{margin:0;background:#0b1220;color:#e2e8f0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
   .wrap{max-width:760px;margin:0 auto;padding:64px 20px;text-align:center}
