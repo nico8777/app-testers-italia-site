@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy – App Testers Italia</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#0b1220;color:#e2e8f0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+  .wrap{max-width:900px;margin:0 auto;padding:48px 20px}
+  h1{margin:0 0 12px} h2{margin:24px 0 8px;font-size:18px}
+  p,li{color:#cbd5e1}
+  a{color:#60a5fa}
+</style>
+<div class="wrap">
+  <h1>Informativa Privacy (sintesi)</h1>
+  <p>Raccogliamo i dati inseriti nel modulo candidature (nome, email, dispositivi, interessi, note) esclusivamente per contattarti riguardo a progetti di testing. I dati non vengono ceduti a terzi e possono essere cancellati su richiesta.</p>
+  <h2>Titolare del trattamento</h2>
+  <p>App Testers Italia – contatto: <a href="mailto:info@tua-mail.it">info@tua-mail.it</a></p>
+  <h2>Base giuridica</h2>
+  <p>Consenso dell’interessato (spunta nel modulo).</p>
+  <h2>Conservazione</h2>
+  <p>I dati vengono conservati per il tempo necessario alla gestione delle selezioni e comunque non oltre 24 mesi.</p>
+  <h2>Diritti</h2>
+  <p>Puoi richiedere accesso, rettifica o cancellazione scrivendo all’indirizzo sopra indicato.</p>
+  <p><a href="./">Torna al sito</a></p>
+</div>
